@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>My Website - About</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
 <h1>Rashene Dillon</h1>
+<img src="{{ url_for('static', filename='about-me.jpg') }}" alt="About Me Pic" />
 <p>I am third-year Computer Science major and Management Studies minor 
     at the University of the West Indies. Aside from academics, I enjoy
     taking my dog for a walk, spending time with family and friends as well
